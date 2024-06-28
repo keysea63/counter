@@ -1,0 +1,28 @@
+
+#sidebar{
+    display: block;
+    text-align: center;
+    color: bisque;
+    background-size: 10em;
+}
+#count{
+    font-size: 10em;
+    display: block;
+    text-align: center;
+    font-family: myfont;
+}
+.a {
+    font-family: myfont;
+    font-size: 5em;
+    padding:10px 20px;
+    background-color: rgb(127, 223, 255);
+    border-style: groove;
+    transition: background-color 0.25s;
+}
+.a:hover{
+    background-color: rgb(0, 200, 255);
+}
+@font-face {
+    font-family: myfont;
+    src: url(Happy\ Memories.ttf);
+}
